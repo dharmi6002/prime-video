@@ -1,0 +1,31 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: white;
+    background-color: #00050d;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.nav-left,
+.nav-right{
+     display: flex;
+    gap: 20px;
+    list-style: none;
+    justify-content: center;
+    text-align: center;
+}
+
+ul>li>a{
+    color: white;
+}
+
